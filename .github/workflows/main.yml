@@ -24,4 +24,4 @@ jobs:
         run: dotnet pack -c Release
       
       - name: Publish package to NuGet
-        run: dotnet nuget push "bin/Release/*.nupkg" -k ${{ secrets.NUGET_SECRET }} -s https://api.nuget.org/v3/json
+        run: dotnet nuget push "bin/Release/*.nupkg" -k ${{ secrets.NUGET_SECRET }} -s https://api.nuget.org/v3/index.json

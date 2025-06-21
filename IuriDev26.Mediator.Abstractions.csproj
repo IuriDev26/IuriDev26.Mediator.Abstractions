@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>IuriDev26.Mediator.Abstractions</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <License>MIT</License>
     <Authors>Iuri de Lima Vieira</Authors>
     <PackageDescription>Abstractions for Mediator Pattern implementations</PackageDescription>

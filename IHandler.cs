@@ -1,4 +1,4 @@
-namespace Iuri.Mediator.Abstractions;
+namespace IuriDev26.Mediator.Abstractions;
 
 public interface IHandler<in TRequest, TResponse>
     where TRequest : IRequest<TResponse>
